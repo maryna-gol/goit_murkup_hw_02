@@ -1,2 +1,1 @@
-homework_02
-WebStudio
+# goit_murkup_hw_02
