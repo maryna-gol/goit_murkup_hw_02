@@ -1,3 +1,236 @@
+/*logo: Font-Raleway, Weight-700; Font-Roboto Weight-700,500,400*/
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; #212121 */
+
+/*body {
+  background-color: E5E5E5;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}*/
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --main-background: #ffffff;
+}
 body {
-  background-color: tomato;
+  font-family: var(--main-font);
+}
+/* ul {
+  list-style: none;
+}*/
+/*=====COMPONENTS =========*/
+.list {
+  list-style: none;
+}
+
+/* a {
+  text-decoration: none;
+}*/
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+.activ-link {
+  color: var(--accent-color);
+}
+.logo-link {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #000000;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  /*line-height/font-size;16/14=1.14*/
+  letter-spacing: 0.02em;
+  cursor: pointer;
+
+  color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  /*line-height/font-size;16/14=1.14*/
+  letter-spacing: 0.02em;
+  cursor: pointer;
+
+  color: #757575;
+}
+.mail-link {
+  color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.tel-link {
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/* Button */
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: var(--accent-color);
+}
+/*===== END COMPONENTS ====*/
+/*======= HERRO ========*/
+.herro {
+  color: #ffffff;
+  background: #2f303a;
+}
+.herro-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.advantage {
+  background: var(--main-background);
+}
+/*===== END HERRO ====*/
+
+.topic {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.accupancy {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our_team {
+  background: #f5f4fa;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.occupation {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*===== FOOTER ====*/
+.footer {
+  background: #2f303a;
+}
+.logo-link-footer {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+.contacts-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+.address-footer {
+  color: #ffffff;
+}
+/*===== END FOOTER ======*/
+/*======PORTFOLIO========*/
+
+.portfolio {
+  background: var(--main-background);
+}
+
+.portfolio-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+  color: #212121;
+  background: #f5f4fa;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #f5f4fa;
+  background-color: var(--accent-color);
+}
+
+.img-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.img-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
