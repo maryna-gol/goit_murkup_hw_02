@@ -92,7 +92,7 @@ body {
 }
 /* Button */
 .modal-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   display: flex;
@@ -125,7 +125,7 @@ body {
 /*===== END HERRO ====*/
 
 .topic {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -134,7 +134,7 @@ body {
   color: #212121;
 }
 .content {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -142,7 +142,7 @@ body {
   color: #757575;
 }
 .accupancy {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -162,7 +162,7 @@ body {
   color: #212121;
 }
 .occupation {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
@@ -174,7 +174,7 @@ body {
   background: #2f303a;
 }
 .logo-link-footer {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -183,7 +183,7 @@ body {
   color: #ffffff;
 }
 .contacts-footer {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -202,7 +202,7 @@ body {
 }
 
 .portfolio-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   display: flex;
@@ -227,7 +227,7 @@ body {
   color: #212121;
 }
 .img-description {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
